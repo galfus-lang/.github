@@ -28,6 +28,9 @@ categories:
   - title: 'Fixes'
     labels:
       - 'changelog:fix'
+  - title: 'Refactors'
+    labels:
+      - 'changelog:refactor'
   - title: 'Performance'
     labels:
       - 'changelog:performance'
