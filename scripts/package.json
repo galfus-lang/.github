@@ -1,0 +1,18 @@
+{
+  "name": "scripts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "cmd": "bun src/cmd.ts",
+    "setup-vscode": "bun cmd setup extension --vscode",
+    "setup-antigravity": "bun cmd setup extension --antigravity",
+    "setup-all": "bun cmd setup extension --all"
+  },
+  "dependencies": {
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "typescript": "^7.0.2"
+  }
+}
