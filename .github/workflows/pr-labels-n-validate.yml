@@ -2,9 +2,6 @@ name: PR Labels and Validate (Shared)
 
 on:
   workflow_call:
-    secrets:
-      GITHUB_TOKEN:
-        required: true
 
 jobs:
   labels:
