@@ -1,4 +1,3 @@
-# .github/workflows/translate-issues.yml
 name: Translate issues
 
 on:
